@@ -1,0 +1,429 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Karen - Portfólio</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML5, Bootstrap 3, CSS3, javascript, PHP, Responsive, Mobile">
+    <!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600,600i" rel="stylesheet">
+    <!-- Styles -->
+	<link rel="stylesheet" type="text/css" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/social-icons.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="https://kit.fontawesome.com/359fa87c67.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	<header id="header">
+		
+		<!-- Section title -->
+		<h1 class="sr-only">Karen Muniz | Home page</h1>
+		
+		<nav id="main-navigation" class="navbar navbar-default navbar-fixed-top">
+		  <!-- Section title -->
+		  <h1 class="sr-only">Main navigation</h1>
+
+		  <div class="container">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="sr-only">Toggle navigation</span>
+		      </button>
+		      <a id="brand-mobile" class="navbar-brand navbar-brand-center smoothScroll" href="#home">
+		        <img alt="Karen" src="img/logo.png">
+		      </a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="main-navbar">
+			  <ul class="nav navbar-nav">
+		        <li class="active"><a class="smoothScroll" href="#home">Início <span class="sr-only">(current)</span></a></li>
+		        <li><a class="smoothScroll" href="#portfolio">Portfólio</a></li>
+		      	<li id="brand-desktop">
+					<a class="navbar-brand smoothScroll" href="#home">
+						<img alt="Karen Muniz" src="img/logo.png">
+					</a>
+		      	</li>
+		        <li><a class="smoothScroll" href="#about">Sobre Mim</a></li>
+		        <li><a class="smoothScroll" href="#footer">Contato</a></li>
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container -->
+		</nav>
+
+	</header>
+
+	<main>
+
+		<section id="home">
+
+			<!-- Section title -->
+			<h1 class="sr-only">início</h1>
+
+			<div id="carousel-hero" class="carousel slide" data-ride="carousel">
+
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#carousel-hero" data-slide-to="0" class="active"></li>
+					<li data-target="#carousel-hero" data-slide-to="1"></li>
+					<li data-target="#carousel-hero" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner" role="listbox">
+			
+					<div class="item active">
+
+						<div class="overlay"></div>
+
+						<div class="carousel-caption">
+										
+							<span class="h4">Olá,eu sou a <span class="text-yellow">Karen</span>, e este é meu</span>
+
+							<span class="h1">Portfólio</span>
+
+
+							<p>Este site é feito em HTML apenas para demonstração mas clicando no botão abaixo ou navegando pelos slides você poderá ver outros sites.</p>
+							<a href="#portfolio" class="btn btn-default white-yellow">Ver Sites</a>
+
+						</div>
+
+					</div> <!-- /.item -->
+
+					<div class="item">
+
+						<div class="overlay"></div>
+
+						<div class="carousel-caption">
+										
+							<span class="h4">Olá,eu sou a <span class="text-yellow">Karen</span>,  e este é meu</span>
+
+							<span class="h1">Portfólio Wordpress</span>
+
+							<p>Utilizo o Wordpress por ser um CMS que possibilita que o próprio cliente atualize seu site, assim como tornar o projeto mais rápido e consequentemente mais barato.</p>
+
+							<a href="#" class="btn btn-default white-yellow">Ver Site</a>
+
+						</div>
+
+					</div> <!-- /.item -->
+
+					<div class="item">
+
+						<div class="overlay"></div>
+
+						<div class="carousel-caption">
+										
+							<span class="h4">Olá,eu sou a <span class="text-yellow">Karen</span>, e este é meu</span>
+
+							<span class="h1">Portfólio Builderall</span>
+
+							<p>Utilizamos a Builderall por ser uma ferramenta barata, que possibilita utilizar outras ferramentas como Webinar e mailmarketing, com muita facilidade</p>
+
+							<a href="http://sejapagoparaviajar.com.br/" class="btn btn-default white-yellow">Ver Site</a>
+
+						</div>
+
+					</div> <!-- /.item -->
+				
+				<div class="item">
+
+						<div class="overlay"></div>
+
+						<div class="carousel-caption">
+										
+							<span class="h4">Olá,eu sou a <span class="text-yellow">Karen</span>, e este é meu</span>
+
+							<span class="h1">Portfólio HTML</span>
+
+							<p>Este HTML foi feito para customizar a home da loja virtual</p>
+
+							<a href="http://1arraso.com.br/" class="btn btn-default white-yellow">Ver Site</a>
+
+						</div>
+
+					</div> <!-- /.item -->
+				
+				</div> <!-- /.carousel-inner -->
+
+				<!-- Controls -->
+				<a class="left carousel-control" href="#carousel-hero" role="button" data-slide="prev">
+					<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#carousel-hero" role="button" data-slide="next">
+					<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+
+			</div> <!-- /.carousel -->
+
+		</section>
+
+	
+
+		<section id="portfolio">
+
+			<div class="container">
+
+				<div class="row">
+					
+					<div class="col-md-8 col-md-offset-2">
+
+						<div class="title-content">
+							
+							<h2 class="section-title">Portfólio</h2>
+
+						</div>
+
+					</div>
+
+				</div> <!-- /.row -->
+
+				<div class="row">
+
+					<nav id="portfolio-navigation" class="navbar">
+
+						<!-- Section title -->
+						<h1 class="sr-only">Portfolio navigation</h1>
+
+						<ul class="nav navbar-nav">
+							<li><button class="filter mixitup-control-active" type="button" data-mixitup-control data-filter="all">Todos</button></li>
+							<li><button class="filter" type="button" data-mixitup-control data-filter=".wordpress">Wordpress</button></li>
+							<li><button class="filter" type="button" data-mixitup-control data-filter=".HTML">HTML</button></li>
+							<li><button class="filter" type="button" data-mixitup-control data-filter=".builderall">Builderall</button></li>
+						</ul>
+
+					</nav> <!-- /#portfolio-navigation -->
+
+				</div> <!-- /.row -->
+
+				<div class="row">
+
+				    <div id="portfolio-grid" class="portfolio-grid">
+				    	
+						<figure class="grid-item mix all HTML">
+							<a href="http://1arraso.com.br/"><img src="img/portfolio/1arraso_370_x_300.jpg" alt="Placeholder portfolio image"></a>
+						</figure>
+
+						<figure class="grid-item mix all wordpress">
+							<a href="http://barbrahma1.esy.es/"><img src="img/portfolio/bar-brahma_370_x_300.jpg" alt="Placeholder portfolio image"></a>
+						</figure>
+
+						<figure class="grid-item mix all builderall">
+							<a href="sejapagoparaviajar.com.br"><img src="img/portfolio/sejapago_370_x_300.jpg" alt="Placeholder portfolio image"></a>
+						</figure>
+
+						<figure class="gap"></figure>
+
+				    </div>
+
+				</div> <!-- /.row -->
+
+
+			</div> <!-- /.container -->
+
+			
+
+			
+
+		<section id="about">
+
+			<div class="container">
+
+				<div class="row">
+					
+					<div class="col-md-8 col-md-offset-2">
+
+						<div class="title-content">
+							
+							<h2 class="section-title">Sobre Mim</h2>
+
+							<p>Busco a cada dia minha melhor versão!.</p>
+
+						</div>
+
+					</div>
+
+				</div> <!-- /.row -->
+
+			</div> <!-- /.container -->
+
+			<div class="about-team slider-container">
+
+				<div class="team-member grabbable">
+
+					<div class="container">
+
+						<div class="row">
+
+							<div class="col-md-4">
+
+								<div class="img-container">	
+									<a href="https://www.linkedin.com/in/karen-muniz-b1555148/"><img src="img/team/karen-muniz.png" alt="Karen Muniz - Desenvolvedora Web"></a>
+								</div>
+
+							</div>
+
+							<div class="col-md-8">
+
+								<div class="description">
+
+									<span class="h4">Karen Muniz</span>
+
+									<p class="position"><i>Desenvolvedora Web</i></p>
+
+									<div class="biography">
+
+										<p>Sou analítica, proativa, orientada para o resultado. Focada em melhoria contínua dos processos, Hands ON, aprendo com facilidade.</p>
+										<p>Passei por grandes empresas e equipes, como: ALL, DHL, Sadia, GVT e Telefônica.</p>
+
+									</div>
+
+									<ul class="social-list">
+										<li><a href="https://www.facebook.com/karen.j.muniz"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/karen-muniz-b1555148/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+										<li><a href="https://github.com/karenmuniz"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+									</ul>
+
+								</div> <!-- /.desctiption -->
+
+							</div>
+
+						</div> <!-- /.row -->
+
+					</div> <!-- /.container -->
+
+				</div> <!-- /.team-member -->
+
+				
+			</div> <!-- /.about-team -->
+
+			<div class="skills-company-subsection">
+				
+				<div class="container">
+					
+					<div class="row">
+						
+						<div class="col-md-7">
+
+							<div class="skills-subsection">
+							
+								<h4>Skills</h4>
+
+								<p>html&css</p>
+
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+								    <span class="sr-only">75% Complete</span>
+								  </div>
+								</div>
+
+								<p>js&php</p>
+
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+								    <span class="sr-only">50% Complete</span>
+								  </div>
+								</div>
+
+								<p>SQL</p>
+
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+								    <span class="sr-only">60% Complete</span>
+								  </div>
+								</div>
+								
+								<p>Trabalho em Equipe</p>
+
+								<div class="progress">
+								  <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 85%;">
+								    <span class="sr-only">85% Complete</span>
+								  </div>
+								</div>
+
+							</div> <!-- /.skills-subsection -->
+
+						</div>
+
+						<div class="col-md-5">
+
+							<div class="company-subsection">
+							
+								<h4>Minhas Forças</h4>
+
+								<div class="description">
+									
+									<p>Atuei na área de TI na maior parte do tempo como desenvolvedora WEB, porém pude trabalhar também com correção de incidentes, principalmente em Banco de Dados SQL.</p>
+
+								</div>
+
+							</div> <!-- /.company-subsection -->
+
+						</div>
+
+					</div> <!-- /.row -->
+
+				</div> <!-- /.container -->
+
+			</div> <!-- /.skills-company-subsection -->
+
+		</section>
+
+	</main>
+
+	<footer id="footer">
+
+		<div class="container">
+			
+			<div class="row">
+				
+				<div class="col-md-6 col-md-offset-3">
+
+					<p class="mail">karenjaquelineminiz@outlook.com</p>
+
+					<p class="tel"><a href="tel:+55-041-99828-6158">(+55) 041-99828-6158</a></p>
+
+					<ul class="social-list">
+						<li><a href="https://www.facebook.com/karen.j.muniz"><i class="fab fa-facebook" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.linkedin.com/in/karen-muniz-b1555148/"><i class="fab fa-linkedin" aria-hidden="true"></i></a></li>
+						<li><a href="https://www.instagram.com/karenjmuniz/"><i class="fab fa-instagram" aria-hidden="true"></i></a></li>
+						<li><a href="https://github.com/karenmuniz"><i class="fab fa-github" aria-hidden="true"></i></a></li>
+					</ul>
+
+					<p class="copyright"> © Copyright <span id="year">2020</span> <span class="text-yellow">Karen</span>. All Rights Reserved</p>
+
+				</div>
+ 
+			</div> <!-- /.row -->
+
+		</div> <!-- /.container -->
+
+	</footer>
+
+	<!-- Scripts -->
+	<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="js/smooth-scroll.min.js"></script>
+	<script type="text/javascript" src="js/modernizr.mq.js"></script>
+	<script type="text/javascript" src="js/mixitup.min.js"></script>
+	<script type="text/javascript" src="js/slick.min.js"></script>
+	<script type="text/javascript" src="js/fontawesome.min.js"></script>
+
+	<!-- Latest compiled and minified JavaScript Bootstrap-->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+	
+	<!-- Custom JS -->
+	<script src="js/custom.js"></script>
+
+</body>
+</html>
